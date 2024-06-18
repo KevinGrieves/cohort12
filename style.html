@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Kevin's Page</title>
+	<title>CSS span element</title>
 	<link rel="stylesheet" href="style.css">
+	
 	<style>
 	.greybox {
 		min-width: 200px;
@@ -16,24 +17,20 @@
 </head>
 
 <body>
-	<h1>Dr Kevin Grieves BA(Hons) PGCert PhD FHEA</h1>
+	<h1  class="red">This is a header</h1>
+	<a href="index.html">
+		<button class="btn rounded">Main Page</button>
+	</a>
 	
-	<img src="image-1.jpeg" alt="Picture of me">
-	
-	
-	<p>My name is Kevin Grieves and I am a lecturer in History, UX/UI and Web Development. I worked in IT for twenty years.</p><br>
-	
-	<h3>Past Experience</h3>
-	<ul>
-		<li>Development programmer</li>
-		<li>Network sysadmin</li>
-		<li>Sever sysadmin</li>
-		<li>PC technical support</li>
-		<li>Web designer</li>
-	</ul>
-	<a href="portfolio.html">Portfolio</a>
-	
-		<div style="display:flex; flex-direction:column; ">
+	<p>This text has <span class="red">styling applied to a section</span> within it.</p>
+	<p>Another big blue paragraph.</p>
+	<ol>
+		<li>First</li>
+		<li>Second</li>
+		<li>Third</li>
+	</ol>
+
+	<div style="display:flex; flex-direction:column; ">
 		<div style="display:flex; flex-direction:row;">
 			<div class="greybox">
 					<p>Item</p>
@@ -51,5 +48,11 @@
 			</div>
 		</div>
 	</div>
+
+	
+	
+	
+	
+	
 </body>
 </html>
